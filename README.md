@@ -25,8 +25,16 @@ Use your plugin manager of choice.
    keybinding `<localleader>ee`, then type in the equation. Output would be an
    image link:
 ```
-    ![](http://latex.codecogs.com/gif.latex?\alpha\frac{a}{b})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha\\frac\{a\}\{b\})
 ```
-   and on github, it shall appear like ![](http://latex.codecogs.com/gif.latex?\alpha\frac{a}{b})
+   and on github, it shall appear like ![](http://latex.codecogs.com/gif.latex?\\alpha\\frac\{a\}\{b\})
 
  * To edit an existing equation, invoke the same function/keybinding when cursor is on an existing equation link.
+
+testing
+    ![](http://latex.codecogs.com/gif.latex?\\alpha+\\frac\{a\}\{b\})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha-\\frac\{a\}\{b\})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha\\times\\frac\{a\}\{b\})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha*\\frac\{a\}\{b\})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\{a\}\{b\})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\{a_a\}\{b\})
