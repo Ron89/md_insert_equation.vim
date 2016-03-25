@@ -1,7 +1,8 @@
 # Markdown Equation Insert Plugin for Vim
 
 This plugin helps inserting LaTeX equation into markdown file as gif generated
-by [latex.codecogs.com](latex.codecogs.com).
+by [latex.codecogs.com](latex.codecogs.com). Note that this plugin is written
+in Python, hence `+python` version of Vim is required.
 
 ## How to Install
 
