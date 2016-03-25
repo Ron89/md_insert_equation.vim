@@ -17,13 +17,23 @@ function! s:Input_Process(input_string)
 endfunction
 
 python<<endOfPython
+def md_ee_reverse_escape(input_string):
+    output_prepare = input_string.replace(u'\ ', u' ')
+    output_prepare = output_prepare.replace(u'\\\\', u'\\')
+    return output_prepare
+
+def md_ee_char_escape(input_string):
+    output_prepare = input_string.replace(u'\\', u'\\\\')
+    output_prepare = output_prepare.replace(u' ', u'\ ')
+    return output_prepare
+
 def md_edit_equation():
     web_api = u'http://latex.codecogs.com/gif.latex?'
     cursor = vim.current.window.cursor
     line = vim.current.buffer[cursor[0] - 1].decode(u'utf-8')
     start = line.rfind(u'![](', 0, cursor[1])
     if start == -1:
-        start = line.rfind(u'![](', 0, cursor[1] + 3)
+        start = line.rfind(u'![](', 0, cursor[1] + 4)
     p_left=1
     end = -1
     if start != -1:
@@ -40,17 +50,17 @@ def md_edit_equation():
     if start==-1 or end==-1:
         md_insert_new_equation = True
     else:
-        content = line[start+4:end].replace(web_api,'').replace('\ ',' ')
-    new_equation = vim.eval("input('Type the equation(in latex format):\n', '{}')".format(content))
+        content = md_ee_reverse_escape(line[start+4:end].replace(web_api,''))
+    new_equation = vim.eval("input('Type the equation(in latex format):\n', \"{}\")".format(content.replace('\\','\\\\')))
     if md_insert_new_equation:
         if not new_equation:
             return
-        vim.command('normal! i![]('+web_api+new_equation.replace(' ','\ ')+')')
+        vim.command('normal! i![]('+web_api+md_ee_char_escape(new_equation)+')')
     else:
         if not new_equation:
             vim.command('echom "Detect empty equation input, quitting"')
             return
-        line=line[:start]+'![]('+web_api+new_equation.replace(' ','\ ')+line[end:]
+        line=line[:start]+'![]('+web_api+md_ee_char_escape(new_equation)+line[end:]
         vim.current.buffer[cursor[0] - 1] = line
 endOfPython
 

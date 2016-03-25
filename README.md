@@ -23,22 +23,10 @@ Use your plugin manager of choice.
 
  * To insert a new equation, invoke the function by command `:EditEquation`, or
    keybinding `<localleader>ee`, then type in the equation. Output would be an
-   image link:
+   image link like:
 ```
-    ![](http://latex.codecogs.com/gif.latex?\\alpha\\frac\{a\}\{b\})
+    ![](http://latex.codecogs.com/gif.latex?\\alpha\ \\frac{a}{b})
 ```
-   and on github, it shall appear like ![](http://latex.codecogs.com/gif.latex?\\alpha\\frac\{a\}\{b\})
+   and on github, the asserted link shall appear as ![](http://latex.codecogs.com/gif.latex?\\alpha\ \\frac{a}{b})
 
  * To edit an existing equation, invoke the same function/keybinding when cursor is on an existing equation link.
-
-testing
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha+\\frac{a}{b})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha-\\frac\\{a\\}\\{b\\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha\\times\\frac\{a\}\{b\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha*\\frac\{a\}\{b\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\{a\}\{b\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\\{a_a\\}\\{b\\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/(\\frac\\{a_a\\}\\{b\\}))
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/[\\frac\\{a_a\\}\\{b\\}])
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\{\\frac\\{a_a\\}\\{b\\}\\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/{\\frac{a.a}{b'}})
