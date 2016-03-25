@@ -32,15 +32,15 @@ Use your plugin manager of choice.
  * To edit an existing equation, invoke the same function/keybinding when cursor is on an existing equation link.
 
 testing
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha+\\frac\{a\}\{b\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha+\\frac{a}{b})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha-\\frac\{a\}\{b\})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha\\times\\frac\{a\}\{b\})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha*\\frac\{a\}\{b\})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\{a\}\{b\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\{a_a\}\{b\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/(\\frac\{a_a\}\{b\}))
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/[\\frac\{a_a\}\{b\}])
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\{\\frac\{a_a\}\{b\}\\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\\{a_a\\}\\{b\\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/(\\frac\\{a_a\\}\\{b\\}))
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/[\\frac\\{a_a\\}\\{b\\}])
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\{\\frac\\{a_a\\}\\{b\\}\\})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a.a\}\{b'\}\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a_a\}\{b`\}\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a_a!?\}\{b`\}\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\{\\frac\\{a_a\\}\\{b`\\}\\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\{\\frac\\{a_a!?\\}\\{b`\\}\\})
