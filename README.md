@@ -22,8 +22,13 @@ Use your plugin manager of choice.
 ## How to Use
 
  * To insert a new equation, invoke the function by command `:EditEquation`, or
-   keybinding `<localleader>ee`, then type in the equation. Output would be an
-   image link like:
+   keybinding `<localleader>ee`, then type in the equation in direct `LaTeX`
+   syntax, e.g.
+```
+    \alpha \frac{a}{b}
+```
+   
+   Output would be automatically translated into an image link:
 ```
     ![](http://latex.codecogs.com/gif.latex?\\alpha\ \\frac{a}{b})
 ```
