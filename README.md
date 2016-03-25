@@ -40,6 +40,6 @@ testing
   * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\frac\{a_a\}\{b\})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha/(\\frac\{a_a\}\{b\}))
   * ![](http://latex.codecogs.com/gif.latex?\\alpha/[\\frac\{a_a\}\{b\}])
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a_a\}\{b\}\})
-  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a_a\}\{b'\}\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\\{\\frac\{a_a\}\{b\}\\})
+  * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a.a\}\{b'\}\})
   * ![](http://latex.codecogs.com/gif.latex?\\alpha/\{\\frac\{a_a\}\{b`\}\})
