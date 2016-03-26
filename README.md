@@ -11,7 +11,7 @@ Use your plugin manager of choice.
 - [Pathogen](https://github.com/tpope/vim-pathogen)
   - `git clone https://github.com/ron89/md_insert_equation.vim ~/.vim/bundle/md_insert_equation.vim`
 - [Vundle](https://github.com/gmarik/vundle)
-  - Add `Bundle 'ron89/md_insert_equation.vim '` to .vimrc
+  - Add `Bundle 'ron89/md_insert_equation.vim'` to .vimrc
   - Run `:BundleInstall`
 - [NeoBundle](https://github.com/Shougo/neobundle.vim)
   - Add `NeoBundle 'ron89/md_insert_equation.vim'` to .vimrc
