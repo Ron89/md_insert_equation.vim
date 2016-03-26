@@ -9,7 +9,7 @@ in Python, hence `+python` version of Vim is required.
 Use your plugin manager of choice.
 
 - [Pathogen](https://github.com/tpope/vim-pathogen)
-  - `git clone https://github.com/ron89/md_insert_equation.vim ~/.vim/bundle/thesaurus_query.vim`
+  - `git clone https://github.com/ron89/md_insert_equation.vim ~/.vim/bundle/md_insert_equation.vim`
 - [Vundle](https://github.com/gmarik/vundle)
   - Add `Bundle 'ron89/md_insert_equation.vim '` to .vimrc
   - Run `:BundleInstall`
