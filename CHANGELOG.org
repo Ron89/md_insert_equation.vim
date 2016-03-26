@@ -1,0 +1,7 @@
+* Changelog
+  All notable changes to this project will be documented in this file.
+
+  This log is kept according to the [[http://keepachangelog.com/][Keep a CHANGELOG]] manifesto
+
+** v0.1.0
+ Initial release
