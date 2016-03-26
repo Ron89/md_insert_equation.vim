@@ -46,7 +46,7 @@ Use your plugin manager of choice.
    keybinding `<localleader>ee`, then type in the equation in direct `LaTeX`
    syntax, e.g.
 ```
-    \alpha \frac{a}{b}
+    \alpha\times\frac{\beta a}{b+\gamma}
 ```
 
    Output would be automatically translated into an image link:
