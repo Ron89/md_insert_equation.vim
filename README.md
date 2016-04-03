@@ -1,3 +1,12 @@
+**Notice** This plugin currently only offer the most simplistic interface for
+simple equation inputting. To make it a full-fledged LaTeX equation editor with
+all highlighting and auto-completion feature is surely doable(by using split
+with `tex` filetype) but it could take some effort and I don't know if there
+will be people needing it. So if you happen to take interests in this plugin
+and have the need for such feature, or any other feature you feel nice to have,
+shout out in the `issue` section of this repo and I'll surely work on it as
+soon as I'm available.
+
 # Markdown Equation Insert Plugin for Vim
 
 This plugin helps inserting LaTeX equation into markdown file as gif image
